@@ -36,7 +36,8 @@ public class DataSyncService : IDataSyncService
 			// Append filter expression to SELECT statement if it's not null
 			if (filterExpression != null)
 			{
-				selectCommand += $" WHERE {filterExpression.Method.Name}()";
+                                  //to do
+				//selectCommand += $" WHERE {filterExpression.Method.Name}()";
 			}
 
 			// Execute the SELECT statement
